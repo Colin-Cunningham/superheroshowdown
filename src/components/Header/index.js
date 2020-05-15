@@ -7,9 +7,9 @@ function Header() {
   return (
     //Static Nav with few links to about page, and stats
    <nav>
-    <div class="nav-wrapper">
+    <div className="nav-wrapper">
       <a href="/" class="brand-logo">SuperHeroShowdown</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><Link to="/about">About</Link></li>
       </ul>
     </div>
