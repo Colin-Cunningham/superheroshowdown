@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import "./style.css"
 
 
-function Header() {
+function Navbar() {
   return (
     //Static Nav with few links to about page, and stats
    <nav>
@@ -17,4 +17,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;

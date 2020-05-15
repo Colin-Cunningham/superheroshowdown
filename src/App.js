@@ -4,16 +4,15 @@ import './App.css';
 import {BrowserRouter as Router} from "react-router-dom"
 
 //Component Imports
-import Header from "../src/components/Header"
 import Body from "../src/components/Body"
-
+import Navbar from "../src/components/Navbar"
 
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Navbar />
         <Body />
       </Router>
     </div>
