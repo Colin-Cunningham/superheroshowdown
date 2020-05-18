@@ -8,7 +8,7 @@ function Navbar() {
     //Static Nav with few links to about page, and stats
    <nav>
     <div className="nav-wrapper">
-      <a href="/" class="brand-logo">SuperHeroShowdown</a>
+      <a href="/" className="brand-logo">SuperHeroShowdown</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><Link to="/about">About</Link></li>
       </ul>

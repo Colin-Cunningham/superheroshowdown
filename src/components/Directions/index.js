@@ -3,7 +3,7 @@ import "./style.css";
 
 function directions() {
   return (
-    <div className="row">
+    <div id="row" className="row">
       <div className="col s12">
         <div className="section">
           <h4>Get Started!</h4>

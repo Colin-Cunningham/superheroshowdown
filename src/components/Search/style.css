@@ -1,0 +1,18 @@
+#in{
+    text-align: center;
+}
+
+#vs{
+    font-family: MyFirstFont;
+    text-align: center;
+    margin: 1rem;
+}
+
+#search{
+ text-align: center;
+ margin-top: 8rem;
+}
+
+#hero2{
+    background-color: black;
+}
